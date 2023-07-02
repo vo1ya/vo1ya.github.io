@@ -1,0 +1,132 @@
+@font-face {
+	src: url('../fonts/Inter-Regular.ttf') format('truetype');
+	font-family: 'Inter';
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	src: url('../fonts/Inter-Bold.ttf') format('truetype');
+	font-family: 'Inter';
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	src: url('../fonts/Inter-SemiBold.ttf') format('truetype');
+	font-family: 'Inter';
+	font-weight: 600;
+	font-style: normal;
+}
+
+body {
+	height: 100%;
+	font-family: 'Inter';
+	margin: 0;
+}
+
+.view {
+	display: flex;
+	justify-content: baseline;
+}
+
+.lang-panel {
+	width: 25%;
+	min-width: 200px;
+	max-width: 300px;
+	background-color: #8BCCE7;
+}
+
+.lang-list {
+	padding-top: 120px;
+	font-size: 20px;
+}
+
+button {
+
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+li {
+	list-style-type: none;
+	padding-top: 15px;
+}
+
+.tile {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #D8EFED;
+	height: 100vh;
+	width: 100%;
+	padding-top: 120px;
+	padding-left: 20px;
+	margin: 0;
+}
+.background {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.ru {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url("../img/ru.png");
+}
+
+.az {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url("../img/az.png");
+}
+
+
+.kz {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url("../img/kz.png");
+}
+
+.by {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url("../img/by.png");
+}
+
+.kg {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url("../img/kg.png");
+}
+
+.tj {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url("../img/tj.png");
+}
+
+.tm {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url("../img/tm.png");
+}
+
+.uz {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85)), url("../img/uz.png");
+}
+
+.tile__item {
+	width: 200px;
+	height: 200px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 30px;
+	padding: 20px;
+}
+
+.country, .capital {
+	color: white;
+	font-weight: 600;
+	font-size: 14px;
+
+}
+
+h2 {
+	margin: 0;
+}
+
+.active {
+	border-left: 5px solid #058CD9;
+}
+
