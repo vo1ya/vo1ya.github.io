@@ -1,38 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="'width=device-width, initial-scale=1.0">
-    <title>Select language</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  </head>
-<body>
-    <div class="view">
-        <div class="lang_panel">
-            <ul class="lang_list">
-                <li class="lang_item active" id="all">Все</li>
-                <li class="lang_item" id="chinese">chinese</li>
-                <li class="lang_item" id="spanish">spanish</li>
-                <li class="lang_item" id="english">english</li>
-                <li class="lang_item" id="arabic">arabic</li>
-                <li class="lang_item">hindi</li>
-                <li class="lang_item">bengali</li>
-                <li class="lang_item">portuguese</li>
-                <li class="lang_item">russian</li>
-                <li class="lang_item">japanese</li>
-                <li class="lang_item">italian</li>
-                <li class="lang_item">french</li>
-                <li class="lang_item">korean</li>
-                <li class="lang_item">german</li>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Select language</title>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="view">
+            <div class="lang_panel">
+                <ul class="lang_list">
+                    <li><button class="lang_item" id="all">Все</button></li>
+                    <li><button class="lang_item" id="chinese">chinese</button></li>
+                    <li><button class="lang_item" id="spanish">spanish</button></li>
+                    <li><button class="lang_item" id="english">english</button></li>
+                    <li><button class="lang_item" id="arabic">arabic</button></li>
+                    <li><button class="lang_item" id="hindi">hindi</button></li>
+                    <li><button class="lang_item" id="bengali">bengali</button></li>
+                    <li><button class="lang_item" id="portuguese">portuguese</button></li>
+                    <li><button class="lang_item" id="russian">russian</button></li>
+                    <li><button class="lang_item" id="japanese">japanese</button></li>
+                    <li><button class="lang_item" id="italian">italian</button></li>
+                    <li><button class="lang_item" id="french">french</button></li>
+                    <li><button class="lang_item" id="korean">korean</button></li>
+                    <li><button class="lang_item" id="german">german</button></li>
+                </ul>
+            </div>
+            <ul class="tile">
+                <div class="tile_item">
+                    <div class="country"></div>
+                    <div class="capital"></div>
+                </div>
             </ul>
         </div>
-        <div class="tile">
-            <div class="tile_item">
-                <div class="country"></div>
-                <div class="capital"></div>
-            </div>
-        </div>
-    </div>
-</body>
+        <script src="js/app.js"></script>
+    </body>
 </html>
