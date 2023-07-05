@@ -3,7 +3,6 @@ const countriesList = document.querySelector('.countries-list');
 
 document.querySelectorAll('.lang-list__item').forEach(item => {
     if (document.querySelectorAll('.lang-list__item')) {
-        const node = document.querySelector('.tile');
         const list = document.querySelectorAll('.lang-list__item')
         list.forEach(item => {
             item.addEventListener('click', (e) => {
